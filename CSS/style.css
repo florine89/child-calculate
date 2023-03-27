@@ -1,0 +1,38 @@
+body { background-color:#FFB6C1;
+    font-family: dancing script;
+    
+}
+
+.header-small {
+    display: flex;
+    justify-content: end;
+ 
+}
+
+.title-calculatrice {font-size: 50px;
+    padding-right: 50rem;
+    
+}
+    
+
+.cocci {
+    width: 15rem;
+    border-radius: 10rem;
+}
+
+.calculatrice {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    border-style: solid;
+    width: 30rem;
+}
+
+.inside-calculatrice {
+/*width: 50rem;*/
+}
+
+.board-calculatrice {
+    height: 2rem;
+}
+
