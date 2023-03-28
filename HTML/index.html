@@ -7,6 +7,7 @@
     <title>Calculatrice</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -19,36 +20,36 @@
         <table class="calculatrice">
             <div class="inside-calculatrice">
         <tr class="first-row">
-            <td colspan="3"><input id="output" value="0"></td>
-            <td><input type="button" value="C" onclick="forclear()" ></td>
+            <td colspan="3"><input class="display" id="output" disabled></td>
+            <td><input class="button" type="button" value="C" id="remove"  ></td>
          </tr>
 
         <tr class="second-row">
-            <td><input type="button" value="1" onclick="dis('1')"></td>
-            <td><input type="button" value="2" onclick="dis('2')"></td>
-            <td><input type="button" value="3" onclick="dis('3')"></td>
-            <td><input type="button" value="/" onclick="dis('/')"></td>
+            <td><input class="button" type="button" value="1" id="un "></td>
+            <td><input class="button" type="button" value="2" id="deux"></td>
+            <td><input class="button" type="button" value="3" id="trois"></td>
+            <td><input class="button" type="button" value="/" id="div"></td>
         </tr>
 
         <tr class="third-row">
-            <td><input type="button" value="4" onclick="dis('4')"></td>
-            <td><input type="button" value="5" onclick="dis('5')"></td>
-            <td><input type="button" value="6" onclick="dis('6')"></td>
-            <td><input type="button" value="*" onclick="dis('*')"></td>
+            <td><input class="button" type="button" value="4" id="quatre"></td>
+            <td><input class="button" type="button" value="5" id="cinq"></td>
+            <td><input class="button" type="button" value="6" id="six"></td>
+            <td><input class="button" type="button" value="*" id="mult"></td>
         </tr>
 
         <tr class="fourth-row">
-            <td><input type="button" value="7" onclick="dis('7')"></td>
-            <td><input type="button" value="8" onclick="dis('8')"></td>
-            <td><input type="button" value="9" onclick="dis('9')"></td>
-            <td><input type="button" value="-" onclick="dis('-')"></td>
+            <td><input class="button" type="button" value="7" id="sept"></td>
+            <td><input class="button" type="button" value="8" id="huit"></td>
+            <td><input class="button" type="button" value="9" id="neuf"></td>
+            <td><input class="button" type="button" value="-" id="sous"></td>
         </tr>
 
         <tr class="fifth-row">
-            <td><input type="button" value="0" onclick="dis('0')"></td>
-            <td><input type="button" value="." onclick="dis('.')"></td>
-            <td><input type="button" value="=" onclick="solve()"></td>
-            <td><input type="button" value="+" onclick="dis('+')"></td>
+            <td><input class="button" type="button" value="0" id="zero"></td>
+            <td><input class="button" type="button" value="." id="virg"></td>
+            <td><input class="button" type="button" value="=" id="result"></td>
+            <td><input class="button" type="button" value="+" id="add"></td>
         </tr>
           </div>
    </table>
