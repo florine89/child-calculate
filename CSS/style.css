@@ -38,6 +38,7 @@ main {
     width: 20rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #caf0f8;
+    padding:10px;
 }
 
 .inside-calculatrice {
@@ -55,6 +56,9 @@ justify-content: center;
     height:4rem;
     font-weight: bold;
     font-size: 1rem;
+    margin: 3px;
+    border-radius: 10px;
+    border-color: #caf0f8;
 }
 
 .button#remove {
@@ -62,7 +66,7 @@ justify-content: center;
 }
 
 
-.display {
+#display {
     height: 3.5rem;
     width: 12rem;
     background-color: #ffffff;

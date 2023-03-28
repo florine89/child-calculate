@@ -7,7 +7,9 @@
     <title>Calculatrice</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Dancing+Script&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+     integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
+     crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -20,57 +22,45 @@
         <table class="calculatrice">
             <div class="inside-calculatrice">
         <tr class="first-row">
-            <td colspan="3"><input class="display" id="output" disabled></td>
-            <td><input class="button" type="button" value="C" id="remove"  ></td>
+            <td colspan="3"><input id="display" name="display" disabled></td>
+            <td><input class="button" type="button" value="C" id="remove" onclick="c()"></td>
          </tr>
 
         <tr class="second-row">
-            <td><input class="button" type="button" value="1" id="un "></td>
-            <td><input class="button" type="button" value="2" id="deux"></td>
-            <td><input class="button" type="button" value="3" id="trois"></td>
-            <td><input class="button" type="button" value="/" id="div"></td>
+            <td><input class="button" type="button" value="1" id="un" onclick="insrt(1)"></td>
+            <td><input class="button" type="button" value="2" id="deux" onclick="insrt(2)"></td>
+            <td><input class="button" type="button" value="3" id="trois" onclick="insrt(3)"></td>
+            <td><input class="button" type="button" value="/" id="div" onclick="insrt('/')"></td>
         </tr>
 
         <tr class="third-row">
-            <td><input class="button" type="button" value="4" id="quatre"></td>
-            <td><input class="button" type="button" value="5" id="cinq"></td>
-            <td><input class="button" type="button" value="6" id="six"></td>
-            <td><input class="button" type="button" value="*" id="mult"></td>
+            <td><input class="button" type="button" value="4" id="quatre" onclick="insrt(4)"></td>
+            <td><input class="button" type="button" value="5" id="cinq" onclick="insrt(5)"></td>
+            <td><input class="button" type="button" value="6" id="six" onclick="insrt(6)"></td>
+            <td><input class="button" type="button" value="*" id="mult" onclick="insrt('*')"></td>
         </tr>
 
         <tr class="fourth-row">
-            <td><input class="button" type="button" value="7" id="sept"></td>
-            <td><input class="button" type="button" value="8" id="huit"></td>
-            <td><input class="button" type="button" value="9" id="neuf"></td>
-            <td><input class="button" type="button" value="-" id="sous"></td>
+            <td><input class="button" type="button" value="7" id="sept" onclick="insrt(7)"></td>
+            <td><input class="button" type="button" value="8" id="huit" onclick="insrt(8)"></td>
+            <td><input class="button" type="button" value="9" id="neuf" onclick="insrt(9)"></td>
+            <td><input class="button" type="button" value="-" id="sous" onclick="insrt('-')"></td>
         </tr>
 
         <tr class="fifth-row">
-            <td><input class="button" type="button" value="0" id="zero"></td>
-            <td><input class="button" type="button" value="." id="virg"></td>
-            <td><input class="button" type="button" value="=" id="result"></td>
-            <td><input class="button" type="button" value="+" id="add"></td>
+            <td><input class="button" type="button" value="0" id="zero" onclick="insrt(0)"></td>
+            <td><input class="button" type="button" value="." id="virg" onclick="insrt(',')"></td>
+            <td><input class="button" type="button" value="=" id="result" onclick="eql()"></td>
+            <td><input class="button" type="button" value="+" id="add" onclick="insrt('+')"></td>
         </tr>
           </div>
    </table>
  </main>
    
  <footer>
-        <h3>A toi de jouer <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-        </head>
-        <body>
-            
-        </body>
-        </html></h3>
+        
 </footer>
-
-<script src="../JS/index.js"></script>
-    
+<script type="text/javascript" src="../JS/script.js"></script>
 </body>
+
 </html>
