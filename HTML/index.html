@@ -14,9 +14,18 @@
 <body>
     <header class="header">
         <div class="header-small">
-        <h1 class="title-calculatrice">Ma Calculatrice</h1>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+                <a href="https://www.lumni.fr/">Lumni</a>
+                <a href="https://www.gulli.fr/">Guli</a>
+                <a href="https://fr.hellokids.com/">Hello Kids</a>
+                <a href="https://lesfondamentaux.reseau-canope.fr/">Les fondamentaux</a>
+              </div>
+              <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Sites éducatifs</span>
+        <h1 class="title-calculatrice">Ma première calculatrice</h1>
         <img class="cocci" src="../IMG/autocollant-coccinelle-chambre-enfant.jpg" alt="coccinelle">  
         </div> 
+        <h2></h2>
     </header>
     <main>
         <table class="calculatrice">
@@ -49,7 +58,7 @@
 
         <tr class="fifth-row">
             <td><input class="button" type="button" value="0" id="zero" onclick="insrt(0)"></td>
-            <td><input class="button" type="button" value="." id="virg" onclick="insrt(',')"></td>
+            <td><input class="button" type="button" value="," id="virg" onclick="insrt(',')"></td>
             <td><input class="button" type="button" value="=" id="result" onclick="eql()"></td>
             <td><input class="button" type="button" value="+" id="add" onclick="insrt('+')"></td>
         </tr>
@@ -60,7 +69,9 @@
  <footer>
         
 </footer>
-<script type="text/javascript" src="../JS/script.js"></script>
+<script type="text/javascript" src="../JS/calculate.js"></script>
+<script type="text/javascript" src="../JS/menu.js"></script>
+
 </body>
 
 </html>
