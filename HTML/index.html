@@ -14,20 +14,22 @@
 <body>
     <header class="header">
         <div class="header-small">
-            <div id="mySidenav" class="sidenav">
+            <div class="menu">
+                <span class="open" style="font-size:30px;cursor:pointer" onclick="show()">&#9776; Sites éducatifs</span>
+            <div class="sidenav" display="none">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
                 <a href="https://www.lumni.fr/">Lumni</a>
                 <a href="https://www.gulli.fr/">Guli</a>
                 <a href="https://fr.hellokids.com/">Hello Kids</a>
                 <a href="https://lesfondamentaux.reseau-canope.fr/">Les fondamentaux</a>
               </div>
-              <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Sites éducatifs</span>
-        <h1 class="title-calculatrice">Ma première calculatrice</h1>
+            </div>
         <img class="cocci" src="../IMG/autocollant-coccinelle-chambre-enfant.jpg" alt="coccinelle">  
         </div> 
-        <h2></h2>
     </header>
     <main>
+        <div class="main">
+        <h1 class="title-calculatrice">Ma première calculatrice</h1>
         <table class="calculatrice">
             <div class="inside-calculatrice">
         <tr class="first-row">
@@ -62,13 +64,14 @@
             <td><input class="button" type="button" value="=" id="result" onclick="eql()"></td>
             <td><input class="button" type="button" value="+" id="add" onclick="insrt('+')"></td>
         </tr>
-          </div>
-   </table>
+        </div>
+        </table>
+        </div>
  </main>
    
  <footer>
         
-</footer>
+ </footer>
 <script type="text/javascript" src="../JS/calculate.js"></script>
 <script type="text/javascript" src="../JS/menu.js"></script>
 

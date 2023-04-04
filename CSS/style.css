@@ -9,6 +9,7 @@ body {
 main {
     display:flex;
     justify-content: center;
+    
 }
 
 .header-small {
@@ -17,27 +18,29 @@ main {
  
 }
 
-.title-calculatrice {font-size: 50px;
-    padding-right: 37rem;
-    
+.title-calculatrice {font-size: 70px;
+    display: flex;
+    justify-content: center;
 }
     
 
 .cocci {
     width: 15rem;
     border-radius: 10rem;
+    padding: 0.5rem;
 }
 
 .calculatrice {
     display: flex;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
     border-style: solid;
     border-radius: 2rem;
     border-color: #669bbc;
-    width: 20rem;
+    width: 35rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #caf0f8;
+    margin-bottom: 70px;
     padding:10px;
 }
 
@@ -52,10 +55,10 @@ justify-content: center;
 }
 
 .button {
-    width: 4rem;
-    height:4rem;
+    width: 7rem;
+    height:7rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 3rem;
     margin: 3px;
     border-radius: 10px;
     border-color: #caf0f8;
@@ -67,8 +70,8 @@ justify-content: center;
 
 
 #display {
-    height: 3.5rem;
-    width: 12rem;
+    height: 6rem;
+    width: 21rem;
     background-color: #ffffff;
     font-size: 2.5rem;
 }
@@ -84,7 +87,20 @@ cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.menu {
+    margin: 1rem;
+}
+
 .sidenav {
+    display: none;
     height: 100%;
     width: 360px;
     position: fixed;
@@ -93,7 +109,6 @@ cursor: pointer;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    transition: 0.5s;
     padding-top: 60px;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -104,11 +119,11 @@ cursor: pointer;
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.5s;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #caf0f8;
   }
   
   .sidenav .closebtn {
@@ -119,7 +134,7 @@ cursor: pointer;
     margin-left: 50px;
   }
 
-@media screen and (max-height: 450px) {
+ /* @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+  }  */
