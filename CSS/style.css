@@ -1,28 +1,29 @@
 body {
-     max-width: 100vw;
-     height:100vh;
-     background-color:#ffcad4;
-     font-family: dancing script;
-    
+    max-width: 100vw;
+    height: 100vh;
+    background-color: #ffcad4;
+    font-family: dancing script;
+
 }
 
 main {
-    display:flex;
+    display: flex;
     justify-content: center;
-    
+
 }
 
 .header-small {
     display: flex;
     justify-content: space-between;
- 
+
 }
 
-.title-calculatrice {font-size: 70px;
+.title-calculatrice {
+    font-size: 70px;
     display: flex;
     justify-content: center;
 }
-    
+
 
 .cocci {
     width: 15rem;
@@ -41,13 +42,13 @@ main {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #caf0f8;
     margin-bottom: 70px;
-    padding:10px;
+    padding: 10px;
 }
 
 .inside-calculatrice {
-/*width: 50rem;*/
-display: flex;
-justify-content: center;
+    /*width: 50rem;*/
+    display: flex;
+    justify-content: center;
 }
 
 .board-calculatrice {
@@ -56,7 +57,7 @@ justify-content: center;
 
 .button {
     width: 7rem;
-    height:7rem;
+    height: 7rem;
     font-weight: bold;
     font-size: 3rem;
     margin: 3px;
@@ -77,9 +78,9 @@ justify-content: center;
 }
 
 .button:hover {
-transition: 0.5s;
-background-color: #fff;
-cursor: pointer;
+    transition: 0.5s;
+    background-color: #fff;
+    cursor: pointer;
 
 }
 
@@ -111,30 +112,74 @@ cursor: pointer;
     overflow-x: hidden;
     padding-top: 60px;
     font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.5s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #caf0f8;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
 
- /* @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }  */
+@media screen and (max-width: 655px) {
+    .title-calculatrice {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2rem;
+
+    }
+
+    .cocci {
+        width: 7rem;
+        border-radius: 10rem;
+        padding: 0.5rem;
+    }
+
+    .calculatrice {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        border-style: solid;
+        border-radius: 2rem;
+        border-color: #669bbc;
+        width: 15rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: #caf0f8;
+        margin-bottom: 70px;
+        padding: 10px;
+    }
+
+
+    .button {
+        width: 3rem;
+        height: 3rem;
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 3px;
+        border-radius: 10px;
+        border-color: #caf0f8;
+    }
+
+    #display {
+        height: 2.5rem;
+        width: 10rem;
+        background-color: #ffffff;
+        font-size: 2.5rem;
+    }
+
+}
