@@ -25,5 +25,4 @@ Oui !
 Netlify
 ```
 https://kidsplaycalculate.netlify.app/
-
 ```
