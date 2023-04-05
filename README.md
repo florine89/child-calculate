@@ -15,7 +15,7 @@ Jai fait ce petit projet pour pouvoir créer une calculatrice et découvrir la l
 
 Oui !
 
-### Evolution
+### Évolution à venir
 
  concevoir une application JavaScript pour créer une ardoise de dessin en pixel art comme dans le style du célèbre jeu Space Invaders.
  Ainsi les enfants auront un jeu d'intégrer dans le site pour la partie fun.
