@@ -23,6 +23,6 @@ Oui !
 ### Déploiement
 
 Netlify
-```
+
 https://kidsplaycalculate.netlify.app/
-```
+
