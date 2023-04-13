@@ -1,6 +1,6 @@
 # Calculatrice enfant
 
-Site simple pour jouer avec une calculatrice et faire des équations simples, avec des liens éducatifs dans le menu à gauche.
+Site simple pour jouer avec une calculatrice et faire des équations, avec des liens éducatifs dans le menu à gauche.
 
 ## Description
 
