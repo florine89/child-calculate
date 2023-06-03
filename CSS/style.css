@@ -38,11 +38,11 @@ main {
     border-style: solid;
     border-radius: 2rem;
     border-color: #669bbc;
-    width: 35rem;
+    width: 40rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #caf0f8;
     margin-bottom: 70px;
-    padding: 10px;
+    padding: 40px;
 }
 
 .inside-calculatrice {
@@ -157,11 +157,11 @@ main {
         border-style: solid;
         border-radius: 2rem;
         border-color: #669bbc;
-        width: 15rem;
+        width: 20rem;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         background-color: #caf0f8;
         margin-bottom: 70px;
-        padding: 10px;
+        padding: 20px;
     }
 
 
